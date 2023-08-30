@@ -24,16 +24,19 @@ nav ul li:hover{
 }
 #mainContainer1{
     background-color: rgba(128, 128, 128, 0.182);
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #mainContainer1 p:hover{
     background-color: #d1e7dd;
 }
+#mainH1{
+    font-size: 200%;
+}
+
 #mainH1:hover{
     background-color: bisque;
-    font-size: 35px;
-    
+    font-size: 30px;
 }
 
 
