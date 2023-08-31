@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/mediaQueries/smarthpone.css">
+</head>
+
+<body>
+    <!-- ---------- PAGE ---------- -->
+    <div id="page" class="flex-column ">
+        <!-- ---------- HEADER ---------- -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-success">
+                <div class="container-fluid p-2 fontNature">
+                    <a href="#" class="navbar-brand">LOGO</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="ulRight">
+                        <li class="nav-item" id="btnPage"><a href="../index.html" class="nav-link text-light">Pagina Inicial</a></li>
+                        <li class="nav-item disabled"><a href="challengers.html" class="nav-link text-light ">Desafios</a></li>
+                        <li class="nav-item disabled"><a href="#" class="nav-link text-light ">Recursos</a></li>
+                        <li class="nav-item disabled"><a href="#" class="nav-link text-light ">Comunidade</a></li>
+                        <li class="nav-item disabled"><a href="#" class="nav-link text-light ">Eventos</a></li>
+                    </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0 disabled">
+                        <li class="nav-item"><a href="#" class="nav-link text-light">Entrar/Cadastrar</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light">Perfil</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ---------- HEADER ---------- -->
+
+        <!-- ---------- MAIN ---------- -->
+        <main>
+            <div class="container-fluid text-success">
+                <h1 class="text-uppercase text-center text-black fontNature" id="mainH1">DESAFIOS</h1>
+            </div>
+           <!-- CAROUSEL -->
+           <div class="carousel slide" id="demo" data-bs-ride="carousel">
+            <!-- CONTROLLERS -->
+            <div class="carousel-indicators">
+                <button class="active" type="button" data-bs-target="#demo" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <!-- CONTROLLERS -->
+            <!-- SLIDER -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../assets/background/background1Challengers.jpg" style="width: 100%; height: 600px;" alt="Menina segurando uma folha">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/background/backgroun2Challengers.jpg" style="width: 100%; height: 600px;"  alt="Planta crescendo">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/background/background3Challengers.jpg" style="width: 100%; height: 600px;" alt="Energia eólica">
+                </div>
+            </div>
+           </div>
+           <!-- CAROUSEL -->
+        </main>
+        <!-- ---------- MAIN ---------- -->
+        <!-- ---------- FOOTER ---------- -->
+        <footer class="bg-success text-light py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 disabled">
+                        <h4>Sobre Nos</h4>
+                        <p>O GreenLife Tracker é uma plataforma dedicada a inspirar e guiar pessoas em suas jornadas
+                            para um estilo de vida mais sustentável e ecologicamente consciente. Nosso objetivo é
+                            oferecer recursos, desafios e uma comunidade vibrante para apoiar a adoção de práticas mais
+                            ecológicas no dia a dia.</p>
+                    </div>
+                    <div class="col-md-4 middleFooter" >
+                        <h4>Links Uteis</h4>
+                        <ul class="list-unstyled">
+                            <li class="nav-item"><a class="nav-link text-white" href="index.html">Página Inicial</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="html/challengers.html">Desafios</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="#">Recursos</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="#">Comunidade</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="#">Eventos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 middleFooter">
+                        <h4>Contato</h4>
+                        <p>Email: contato@greenlifetracker.com</p>
+                        <p>Telefone: (123) 456-7890</p>
+                        <div class="social-icons mt-3">
+                            <a href="#" class="text-light me-3"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ---------- FOOTER ---------- -->
+    </div>
+    <!-- ---------- PAGE ---------- -->
+</body>
+<script src="js/code.jquery.com_jquery-3.7.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+<script src="../js/index.js"></script>
+
+
+</html>
