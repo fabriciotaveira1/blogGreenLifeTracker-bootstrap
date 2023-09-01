@@ -68,5 +68,39 @@ footer h4:hover{
 /* ----------- ADDINGS --------- */
 
 /* --------------------------------- CHALLENGER PAGE------------------------------------- */
+#challenger h5{
+    font-family: Nature;;
+}
+
+#row1:hover,#row2:hover,#row3:hover,#row4:hover{
+    background-color: #d1e7dd;
+}
 
 /* --------------------------------- CHALLENGER ------------------------------------- */
+
+/* --------------------------------- RESOURCES ------------------------------------- */
+
+
+.article{
+    background-color: #d1e7dd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.article img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+article h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/* --------------------------------- RESOURCES ------------------------------------- */

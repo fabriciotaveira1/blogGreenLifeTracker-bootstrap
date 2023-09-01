@@ -1,3 +1,4 @@
+// -------------------------------- INDEX PAGE ----------------------------------------
 //Setting Variables
 
 const p1 = $("#p1");
@@ -92,3 +93,61 @@ if (screenWidth <= 991) {
     })
     
 }
+// -------------------------------- INDEX PAGE ----------------------------------------
+
+
+// -------------------------------- CHALLENGER PAGE ----------------------------------------
+const row1 = $("#row1");
+const row2 = $("#row2");
+const row3 = $("#row3");
+const row4 = $("#row4");
+
+const card1 = $("#card1");
+const card2 = $("#card2");
+const card3 = $("#card3");
+const card4 = $("#card4");
+
+
+const cardImg1 = $("#cardImg1");
+const cardImg2 = $("#cardImg2");
+const cardImg3 = $("#cardImg3");
+const cardImg4 = $("#cardImg4");
+
+
+row1.on("click", function(){
+    card1.hide(200);
+    if(cardImg1.css("display") === "none"){
+        cardImg1.css("display", "block");
+    }else{
+        card1.show(200);
+        cardImg1.css("display", "none")
+    }
+})
+row2.on("click", function(){
+    card2.hide(200);
+    if(cardImg2.css("display") === "none"){
+        cardImg2.css("display", "block");
+    }else{
+        card2.show(200);
+        cardImg2.css("display", "none")
+    }
+})
+row3.on("click", function(){
+    card3.hide(200);
+    if(cardImg3.css("display") === "none"){
+        cardImg3.css("display", "block");
+    }else{
+        card3.show(200);
+        cardImg3.css("display", "none")
+    }
+})
+row4.on("click", function(){
+    card4.hide(200);
+    if(cardImg4.css("display") === "none"){
+        cardImg4.css("display", "block");
+    }else{
+        card4.show(200);
+        cardImg4.css("display", "none")
+    }
+})
+// -------------------------------- CHALLENGER PAGE ----------------------------------------
