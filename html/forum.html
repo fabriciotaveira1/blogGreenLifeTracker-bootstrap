@@ -43,69 +43,57 @@
         <!-- ---------- MAIN ---------- -->
         <main>
             <div class="container-fluid my-2 text-success">
-                <h1 class="text-uppercase text-center text-black fontNature" id="mainH1">COMUNIDADE</h1>
+                <h1 class="text-uppercase text-center text-black fontNature" id="mainH1">FORUM</h1>
             </div>
-            <!--Section Apresentation -->
-            <section class="container my-2 p-2 text-center" id="apresentation">
-                <h2>Bem-vindo à nossa Comunidade!</h2>
-                <p>Aqui, você pode se conectar com pessoas que compartilham seu interesse pela sustentabilidade e pelo
-                    meio ambiente. Compartilhe suas experiências, aprenda com outros membros e juntos podemos criar um
-                    impacto positivo no mundo.</p>
-            </section>
-            <hr>
-            <!--Section Apresentation -->
-
-            <!--Section FORUM -->
-            <section class="container my-2 p-2 text-center" id="forum">
-                    <h2>Fórum de Discussão</h2>
-                <p>Participe de discussões sobre tópicos relacionados à sustentabilidade, faça perguntas, compartilhe
-                    suas ideias e ajude a comunidade a crescer.</p>
-                <a class="btn btn-success" href="forum.html">Ir para o Fórum</a>
-            </section>
-            <!--Section FORUM -->
-            <hr>
-            <section class="container my-2 p-2 text-center" id="members">
-                <h2>Nossos Membros</h2>
-                <p>Conheça outros membros da comunidade que estão comprometidos com um estilo de vida sustentável. Veja
-                    seus perfis e faça novas amizades.</p>
-                <a class="btn btn-success" href="member.html">Conheça os Membros</a>
-            </section>
-            <!-- CAROUSEL -->
-            <div class="carousel slide" id="demo" data-bs-ride="carousel">
-                <!-- CONTROLLERS -->
-                <div class="carousel-indicators">
-                    <button class="active" type="button" data-bs-target="#demo" data-bs-slide-to="0"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                </div>
-                <!-- CONTROLLERS -->
-                <!-- SLIDER -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../assets/background/background1Challengers.jpg" class="d-block"
-                            style="width: 100%; height: 600px;" alt="Menina segurando uma folha">
+            <section class="my-4 text-center">
+                <!-- Section's topics -->
+                <h2 class="mb-4">Tópicos em Destaque</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-4">
+                            <div class="card-body">
+                                <h3 class="topico-titulo">Dicas para Reduzir o Desperdício de Alimentos</h3>
+                                <p class="card-text">Compartilhe suas estratégias para reduzir o desperdício de
+                                    alimentos em casa.</p>
+                                <p class="card-text"><small class="text-muted">Autor: Joana</small></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="../assets/background/backgroun2Challengers.jpg" class="d-block"
-                            style="width: 100%; height: 600px;" alt="Planta crescendo">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/background/background3Challengers.jpg" class="d-block"
-                            style="width: 100%; height: 600px;" alt="Energia eólica">
+                    <div class="col-md-6">
+                        <div class=" mb-4">
+                            <div class="card-body">
+                                <h3 class="topico-titulo">Transporte Sustentável na Cidade</h3>
+                                <p class="card-text">Discuta opções de transporte e compartilhe suas experiências sobre
+                                    mobilidade sustentável.</p>
+                                <p class="card-text"><small class="text-muted">Autor: Carlos</small></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- ARROW INDICATOR -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
 
-                <!-- ARROW INDICATOR -->
-            </div>
-            <!-- CAROUSEL -->
+                </ul>
+                <!-- Section's topics -->
+                <hr>
+                <section class="mt-4 text-center">
+                    <!-- FORM NEW TOPIC -->
+                    <h2>Criar um Novo Tópico</h2>
+                    <form action="#">
+                        <div class="mb-3">
+                            <label for="title" class="form-label">Título:</label>
+                            <input type="text" class="form-control" id="title">
+                        </div>
+                        <div class="mb-3">
+                            <label for="msg" class="form-label">Mensagem</label>
+                            <textarea id="msg" class="form-control" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Publicar</button>
+                    </form>
+                    <!-- FORM NEW TOPIC -->
+                </section>
+            </section>
+            
         </main>
         <!-- ---------- MAIN ---------- -->
         <!-- ---------- FOOTER ---------- -->
