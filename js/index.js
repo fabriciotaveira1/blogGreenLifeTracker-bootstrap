@@ -11,7 +11,7 @@ const p7 = $("#p7");
 const screenWidth = window.innerWidth;
 //Adding Events
 
-if(screenWidth > 768){
+if (screenWidth > 768) {
     p1.on('click', function () {
         p1.hide(200);
     })
@@ -39,7 +39,7 @@ if(screenWidth > 768){
         p6.show(200);
         p7.hide(200);
     })
-    
+
 }
 
 // MediaQuery for smartphone
@@ -47,13 +47,13 @@ if(screenWidth > 768){
 
 //Function to adjust the layout according with the width
 
-
 if (screenWidth <= 991) {
     //logic for screen less than 767px
 
     //Enabling the links that are disabled on the media querie for Smartphone
     const btnPage = $("#btnPage");
     const disabled = $(".disabled");
+    btnPage.show(0);
     btnPage.on('click', function () {
         if (disabled.css("display") === "none") {
             disabled.css("display", "block");
@@ -79,7 +79,7 @@ if (screenWidth <= 991) {
         p4.hide(200);
         p5.show(200);
     })
-    p5.on('click', function () {   
+    p5.on('click', function () {
         p5.hide(200);
         p6.show(200);
     })
@@ -87,17 +87,22 @@ if (screenWidth <= 991) {
         p6.hide(200);
         p7.show(200);
     })
-    p7.on('click', function(){
+    p7.on('click', function () {
         p7.hide(200);
         p1.show(200);
     })
-    
+
 }
-// -------------------------------- INDEX PAGE ----------------------------------------
+
+if (screenWidth >= 992){
+    const btnPage = $("#btnPage");
+    btnPage.hide(10);
+}
+    // -------------------------------- INDEX PAGE ----------------------------------------
 
 
-// -------------------------------- CHALLENGER PAGE ----------------------------------------
-const row1 = $("#row1");
+    // -------------------------------- CHALLENGER PAGE ----------------------------------------
+    const row1 = $("#row1");
 const row2 = $("#row2");
 const row3 = $("#row3");
 const row4 = $("#row4");
@@ -114,40 +119,45 @@ const cardImg3 = $("#cardImg3");
 const cardImg4 = $("#cardImg4");
 
 
-row1.on("click", function(){
+row1.on("click", function () {
     card1.hide(200);
-    if(cardImg1.css("display") === "none"){
+    if (cardImg1.css("display") === "none") {
         cardImg1.css("display", "block");
-    }else{
+    } else {
         card1.show(200);
         cardImg1.css("display", "none")
     }
 })
-row2.on("click", function(){
+row2.on("click", function () {
     card2.hide(200);
-    if(cardImg2.css("display") === "none"){
+    if (cardImg2.css("display") === "none") {
         cardImg2.css("display", "block");
-    }else{
+    } else {
         card2.show(200);
         cardImg2.css("display", "none")
     }
 })
-row3.on("click", function(){
+row3.on("click", function () {
     card3.hide(200);
-    if(cardImg3.css("display") === "none"){
+    if (cardImg3.css("display") === "none") {
         cardImg3.css("display", "block");
-    }else{
+    } else {
         card3.show(200);
         cardImg3.css("display", "none")
     }
 })
-row4.on("click", function(){
+row4.on("click", function () {
     card4.hide(200);
-    if(cardImg4.css("display") === "none"){
+    if (cardImg4.css("display") === "none") {
         cardImg4.css("display", "block");
-    }else{
+    } else {
         card4.show(200);
         cardImg4.css("display", "none")
     }
 })
 // -------------------------------- CHALLENGER PAGE ----------------------------------------
+
+
+
+
+

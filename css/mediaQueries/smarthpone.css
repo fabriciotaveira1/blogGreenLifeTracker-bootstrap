@@ -13,83 +13,56 @@
         font-size: 150%;
     }
 
-
     .disabled {
         display: none;
+    }
+
+    #btnPage{
+        display: block;
     }
 
     /* <!-- ---------- HEADER ---------- --> */
 
     /* <!-- ---------- MAIN ---------- --> */
-    #mainH1{
-        font-size: 15px;
-    }
-    #mainH1:hover{
-        background-color: bisque;
-        font-size: 12px;
+    #mainH1 {
+        font-size: 25px;
     }
 
-    p{
+    #mainH2 {
+        font-size: 20px;
+    }
+
+    .mainH1:hover {
+        background-color: bisque;
+        font-size: 18px;
+    }
+
+    p {
         font-size: 15px;
     }
+
+    .perfil{
+        width: 90%;
+    }
+
     /* <!-- ---------- MAIN ---------- --> */
 
     /* <!-- ---------- FOOTER ---------- --> */
-    .middleFooter{
+    .middleFooter {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
 
-    .middleFooter h4{
+    .middleFooter h4 {
         font-size: 25px;
     }
-    .middleFooter li{
+
+    .middleFooter li {
         font-size: 20px;
     }
 
-    /* <!-- ---------- FOOTER ---------- --> */
-
-}
-
-/* Media query for screen less than 991px in orientation portrait */
-@media screen and (max-width: 991px) and (orientation: portrait) {
-
-    /* <!-- ---------- HEADER ---------- --> */
-    #ulRight {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #ulRight li {
-        font-size: 150%;
-    }
-
-
-    .disabled {
-        display: none;
-    }
-
-    /* <!-- ---------- HEADER ---------- --> */
-
-    /* <!-- ---------- MAIN ---------- --> */
-    #mainH1{
-        font-size: 15px;
-    }
-    #mainH1:hover{
-        background-color: bisque;
-        font-size: 12px;
-    }
-
-    p{
-        font-size: 15px;
-    }
-    /* <!-- ---------- MAIN ---------- --> */
-
-    /* <!-- ---------- FOOTER ---------- --> */
     /* <!-- ---------- FOOTER ---------- --> */
 
 }
@@ -109,37 +82,50 @@
         font-size: 150%;
     }
 
-
+    .disabled {
+        display: none;
+    }
     
+    #btnPage{
+        display: block;
+    }
 
     /* <!-- ---------- HEADER ---------- --> */
 
     /* <!-- ---------- MAIN ---------- --> */
-    #mainH1{
-        font-size: 15px;
-    }
-    #mainH1:hover{
-        background-color: bisque;
-        font-size: 12px;
+    #mainH1 {
+        font-size: 35px;
     }
 
-    p{
+    #mainH1:hover {
+        background-color: bisque;
+        font-size: 30px;
+    }
+
+    p {
         font-size: 15px;
     }
+
+    .perfil{
+        width: 90%;
+    }
+
+
     /* <!-- ---------- MAIN ---------- --> */
 
     /* <!-- ---------- FOOTER ---------- --> */
-    .middleFooter{
+    .middleFooter {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
 
-    .middleFooter h4{
+    .middleFooter h4 {
         font-size: 25px;
     }
-    .middleFooter li{
+
+    .middleFooter li {
         font-size: 20px;
     }
 
@@ -148,7 +134,7 @@
 }
 
 /* Media query for screen less than 991px in orientation landscape */
-@media screen and (max-width: 991px) and (orientation: landscape) {
+@media screen and (min-width:768px) and (max-width: 991px) and (orientation: landscape) {
 
     /* <!-- ---------- HEADER ---------- --> */
     #ulRight {
@@ -163,25 +149,45 @@
     }
 
 
-    
+
 
     /* <!-- ---------- HEADER ---------- --> */
 
     /* <!-- ---------- MAIN ---------- --> */
-    #mainH1{
-        font-size: 15px;
-    }
-    #mainH1:hover{
-        background-color: bisque;
-        font-size: 12px;
+    #mainH1 {
+        font-size: 40px;
     }
 
-    p{
+    #mainH1:hover {
+        background-color: bisque;
+        font-size: 30px;
+    }
+
+    p {
         font-size: 15px;
     }
+
+    .disabled {
+        display: none;
+    }
+
+    .memberCol {
+        width: 100%;
+    }
+
+    .memberCol img {
+        height: 400px;
+    }
+
+    .perfil{
+        width: 90%;
+    }
+
+
     /* <!-- ---------- MAIN ---------- --> */
 
     /* <!-- ---------- FOOTER ---------- --> */
     /* <!-- ---------- FOOTER ---------- --> */
 
 }
+
