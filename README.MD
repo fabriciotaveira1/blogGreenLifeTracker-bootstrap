@@ -5,7 +5,7 @@
 #### How to run this project
 <hr>
 
-#### [![Clique aqui para ver o projeto/click here to see](https://via.placeholder.com/150x50?text=Click-Here)](https://fabriciotaveira1.github.io/blogGreenLifeTracker-bootstrap/html/challengers.html)
+#### [![Clique aqui para ver o projeto/click here to see](https://via.placeholder.com/150x50?text=Click)](https://fabriciotaveira1.github.io/blogGreenLifeTracker-bootstrap/html/challengers.html)
 
 
 ### Descrição
