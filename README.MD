@@ -26,3 +26,25 @@
 
     bloggreenlifetracker-bootstrap/index.html
 
+### Página Inicial/Home Page
+![alt text](assets/readme/image.png)
+![alt text](assets/readme/image2.png)
+
+### Desafios/Challenge
+![alt text](assets/readme/image3.png)
+
+### Recursos/Resources
+![alt text](assets/readme/image4.png)
+
+### Comunidade/Community
+![alt text](assets/readme/image5.png)
+![alt text](assets/readme/image6.png)
+
+### Fórum/Forum
+![alt text](assets/readme/image7.png)
+
+### Cadastrar-se/SignIn
+![alt text](assets/readme/image8.png)
+
+### Perfil/Profile
+![alt text](assets/readme/image9.png)
